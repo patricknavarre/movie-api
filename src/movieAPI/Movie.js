@@ -18,7 +18,7 @@ export class Movie extends Component {
     });
     try {
       let movieData = await axios.get(
-        `http://omdbapi.com/?apikey=6332b1e1&s=${randomTitle[randomSelectedTitleIndex]}`
+        `http://omdbapi.com/?apikey=81710a43&s=${randomTitle[randomSelectedTitleIndex]}`
       );
       this.setState({
         movieArray: movieData.data.Search,
